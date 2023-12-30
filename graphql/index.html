@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./icons8-rabbit-50.png"/>
+
+    <title>Your score 2023</title>
+  </head>
+  <body>
+    <div id="login" class="login">
+      <div id="error" class="error"></div>
+      <h2>KOOD/JOHVI</h2>
+      <h3>Your intra data 2023</h3>
+      <form id="loginForm" name="loginForm" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" class="loginElem" name="username" placeholder="email or user name" autocomplete="username" required/>
+        <label for="password">Password:</label>
+        <input type="password" id="password" class="loginElem" name="password" placeholder="password" autocomplete="current-password" required/>
+        <input class="button" type="submit" name="submit" value="LOGIN"/>
+      </form>
+    </div>
+    <div id="logoutForm" class="logoutForm" style="display: none;">
+      <button type="button" id="logout-button" class="logout-button" onclick="window.location.href = 'https://jam-007.github.io/graphql/ '">LOGOUT</button>
+    </div>
+    <div id="basicInfo" class="basicInfo">
+      <div id="name" class="name"></div>
+      <div id="userlogin" class="userlogin"></div>
+      <div id="campus" class="campus"></div>
+      <div id="acc-created" class="acc-created"></div>
+      <div id="xp" class="xp"></div>
+    </div>
+    <div id="svgs" class="svgs">
+    </div>    
+    <div id="fav">
+      <a target="_blank" href="https://icons8.com/icon/N3k2PI9wb5EL/rabbit">Rabbit</a>icon by<a target="_blank" href="https://icons8.com">Icons8</a>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script type="module" src="./static/js/index.js"></script>
+    <script type="module" src="./static/js/piechart.js"></script>
+    <script type="module" src="./static/js/linegraph.js"></script>
+  </body>
+</html>

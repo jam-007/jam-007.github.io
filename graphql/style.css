@@ -1,0 +1,119 @@
+body {
+    background-color: grey;
+    color: white;
+    background-image: url('./01-trame.svg');
+    background-size: cover;
+}
+
+.name, .campus,.xp {
+    background-color: black;
+}
+.username, .acc-created{
+    background-color: grey;;
+}
+
+.pie {
+    margin-top: 20px;
+}
+
+.basicInfo {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: bold;
+}
+
+#fav {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.svgs {
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(22, 23, 24);
+    color: white;
+    border: 2px solid white;
+    border-radius: 1px;
+    display: none;
+    opacity: 0.5;
+}
+
+.error {
+    color: brown;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login {
+    height: 40%;
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    background: radial-gradient(ellipse at 20% 20%, #b7b5c7, #2b2727);
+  }
+
+  .button {
+    background-color: #000;
+    transform: translate(50%, -50%);
+    color: #fff;
+    height: 50px;
+    margin-top: 15%;
+    width: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover, .logout-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  h2, h3, label, button {
+    font-family: "Courier";
+  }
+
+  .logout-button {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  .logoutForm {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
