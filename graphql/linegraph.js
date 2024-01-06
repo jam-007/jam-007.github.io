@@ -76,7 +76,7 @@ export function drawLineGraph(input) {
         .style("font-size", "40")
         .style("font-weight", "bold")
         .style("fill", "white")
-        .text("your xp/date - 2023")
+        .text("your xp/date")
 
     svg.append("text")
         .attr("class", "graph-note")
